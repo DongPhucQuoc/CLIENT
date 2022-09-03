@@ -1,0 +1,19 @@
+.history {
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 10% 10px 10%;
+
+    &__title {
+      font-size: 1.5vw;
+    }
+  }
+
+  &__empty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

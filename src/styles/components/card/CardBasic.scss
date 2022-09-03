@@ -1,0 +1,18 @@
+.card-basic {
+  &__modal {
+    &__item {
+      margin: 10px 0px 15px 0px;
+      font-size: 1.2vw;
+    }
+
+    &__quantity {
+      margin: 0px 10px;
+    }
+  }
+  
+  &__img {
+    height: 250px;
+    width: 100% !important;
+    object-fit: cover !important;
+  }
+}

@@ -1,0 +1,55 @@
+.product {
+  display: flex;
+
+  &__sidebar {
+    flex: 1;
+
+    &__box {
+      display: flex;
+      flex-direction: column;
+      margin-left: 15px;
+
+      label {
+        margin: 0px !important;
+      }
+    }
+  }
+
+  &__feed {
+    flex: 5;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 10% 10px 10%;
+
+    &__title {
+      font-size: 2vw;
+    }
+  }
+
+  &__banner {
+    img {
+      width: 100%;
+      max-height: calc(100vh - 64px);
+      object-fit: cover;
+    }
+  }
+
+  &__feed {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+  &__spinner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 5;
+  }
+}

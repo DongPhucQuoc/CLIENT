@@ -1,0 +1,19 @@
+.footer {
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+  &__logo {
+    width: 200px;
+  }
+
+  &__col {
+    flex: 1;
+
+    &__text {
+      list-style-type: none;
+    }
+  }
+}

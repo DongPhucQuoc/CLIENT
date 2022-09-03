@@ -1,0 +1,17 @@
+.ant-col-8 {
+  flex: 0 0 20% !important;
+}
+
+.ant-col-offset-8 {
+  margin-left: 20% !important;
+}
+
+.login {
+  &__form {
+    height: 389px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 1px 3px 0.2px;
+  }
+}

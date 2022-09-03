@@ -1,0 +1,10 @@
+.register {
+  &__form {
+    box-shadow: 0px 1px 3px 0.2px;
+    padding: 5vw 0px 2vw 0px !important;
+
+    &__button {
+      text-align: center;
+    }
+  }
+}

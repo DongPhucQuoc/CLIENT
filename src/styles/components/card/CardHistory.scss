@@ -1,0 +1,21 @@
+.card-history {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 1px 3px 0.2px;
+  margin-bottom: 20px;
+
+  &__field {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    &__image {
+      width: 150px;
+      object-fit: cover;
+    }
+  }
+}

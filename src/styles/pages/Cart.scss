@@ -1,0 +1,43 @@
+.cart {
+  &__header {
+    margin-bottom: 20px;
+  }
+
+  &__total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    &__text {
+      font-size: 1.5vw;
+      font-style: bold;
+    }
+  }
+
+  &__empty {
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__bottom {
+    display: flex;
+    flex-direction: column;
+
+    &__pay {
+      display: flex;
+      flex-direction: column;
+      &-method {
+        font-weight: bold;
+        font-size: 1.1vw;
+      }
+    }
+  }  
+}
+
+.ant-radio-group {
+  display: flex !important;
+  flex-direction: column !important;
+}

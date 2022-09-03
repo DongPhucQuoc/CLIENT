@@ -1,0 +1,62 @@
+.detail {
+  display: flex;
+
+  &__title {
+    font-size: 2vw;
+  }
+
+  &__image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    padding: 80px 0px 80px 0px;
+
+    img {
+      width: 350px;
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+
+  &__infor {
+    flex: 1;
+    margin-left: 10%;
+
+    &__name {
+      font-size: 2vw;
+    }
+
+    &__price {
+      font-size: 1.5vw;
+    }
+
+    &__quantity {
+      margin-top: 20px;
+      font-size: 1.2vw;
+
+      &__count {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    }
+
+    &__size {
+      font-size: 1.3vw;
+    }
+  }
+
+  &__button {
+    margin-top: 20px; 
+    padding: 20px 30px 20px 30px !important;
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+    align-items: center !important;
+
+    span {
+      font-size: 1.2vw;
+    }
+  }
+}
